@@ -2,7 +2,7 @@
 
 
 for i in range(5):
- print("For Loop",i)
+  print("For Loop",i)
 
 y=0
 while y<5:
