@@ -22,7 +22,7 @@ def main():
     print("Mean:", statistics.mean(data))
     print("Median:", statistics.median(data))
     print("Standard Deviation:", statistics.stdev(data))
-    print("Custom Average (from utils):", average(data))
+    print("Custom Average (from HandsOn):", average(data))
 
     print("\n--- IP Address ---")
     ip = fetch_ip()
