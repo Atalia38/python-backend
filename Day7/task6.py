@@ -27,5 +27,6 @@ car4= Car("ttt","hhhhh")
 print(car1.display_car())
 print(car2.display_car())
 print(car3.display_car())
+print(car4.display_car())
 
 print(f"Total cars created: {Car.get_total_cars()}")
