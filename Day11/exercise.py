@@ -21,4 +21,4 @@ if is_valid_email(email):
     display_time_in_timezones(['Asia/Kolkata', 'America/New_York', 'Europe/London'])
 else:
     print("Invalid email format.")
-    
+
