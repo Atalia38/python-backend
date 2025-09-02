@@ -26,7 +26,7 @@ def fibonacci(n: int) -> int:
 @dataclass
 class Counter:
     value: int = 0
-    on_change: Optional[Callable[[int], None]] = None  # dependency we can mock
+    on_change: Optional[Callable[[int], None]] = None  
 
     def _notify(self) -> None:
         if self.on_change:
